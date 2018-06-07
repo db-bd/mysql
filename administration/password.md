@@ -6,7 +6,7 @@ sudo mysqld_safe --skip-grant-tables &
 mysql -uroot
 
 use mysql;
-update user set password=PASSWORD("mynewpassword") where User='root';
+update user set password=PASSWORD("nopass") where User='root';
 flush privileges;
 quit
 
