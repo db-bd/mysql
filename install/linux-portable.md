@@ -63,11 +63,26 @@ export PATH="$PATH:/opt/mysql/bin"
 * Now quit and reconnect: ` mysql -u root -p nopass `
 * Everything is working fine
 
-* Mind it. First Start mysqld by for starting server
+* Mind it. First Start mysqld by for starting server From screen
 ```sh
  mysqld --console
 ```
-* Or open cmd and type
+* Connect MySQL through ` mysql ` command
 ```sh
-mysqld
+mysql -uroot -pnopass
 ```
+* Mind it: type ` quit ` command for successful exit of client
+* Check Connected Clients
+```sh
+show status where `variable_name` = 'Threads_connected';
+```
+* Return Result
+```sh
++-------------------+-------+
+| Variable_name     | Value |
++-------------------+-------+
+| Threads_connected | 1     |
++-------------------+-------+
+1 row in set (0.01 sec)
+```
+* Never use ` ctrl + c ` for quiting mysql client. Otherwise ` Threads_connected ` variable will always be increasing 
