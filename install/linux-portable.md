@@ -2,7 +2,7 @@
 
 * Download [dev.mysql.com](https://dev.mysql.com/downloads/mysql/) => Linux - Generic (glibc 2.12) (x86, 64-bit), Compressed TAR Archive
 
-* Install Following ` mysql ` server runtime dependencies
+* Search Following ` mysql ` server runtime dependencies
 ```sh
 yum search libaio       [centos]
 apt-cache search libaio [ubuntu]
