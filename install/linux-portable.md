@@ -20,7 +20,7 @@ yum install libaio # install library      [centos]
 apt-get install libaio1 # install library [ubuntu] 
 ``` 
 
-* Extract TAR Say for Example ` /opt/mysql ` Folder by following command
+* Extract TAR File. Suppose in ` /opt/mysql ` Folder by following command
 ```sh
 tar xvf mysql-xxx-linux-glibc2.xxx-x86_64.tar.xz 
 ```
