@@ -63,7 +63,7 @@ export PATH="$PATH:/opt/mysql/bin"
 * Now quit and reconnect: ` mysql -u root -p nopass `
 * Everything is working fine
 
-* Mind it. First Start mysqld by for starting server From screen
+* Mind it. First Start mysqld for starting server from ` screen `
 ```sh
  mysqld --console
 ```
