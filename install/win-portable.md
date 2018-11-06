@@ -1,7 +1,7 @@
 #### MySQL Portable Install in Windows
 
 * Download [dev.mysql.com](https://dev.mysql.com/downloads/mysql/) => Windows (x86, 64-bit) ZIP Archive
-* Unzil Zip Say for Example ` C:/database/mysql ` Folder
+* Unzip Zip Say for Example ` C:/database/mysql ` Folder
 * Make a Copy of ` my-default.ini ` to ` my.ini ` in current Directory
 * Make a ` data ` directory in current Folder
 * Add these lines in ` my.ini `
