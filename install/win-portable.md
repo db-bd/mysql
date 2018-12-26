@@ -12,6 +12,13 @@
  datadir = "C:/database/mysql/data"
  max_allowed_packet=100M
 ```
+* OR
+```sh
+ [mysqld]
+ basedir = "C:/Database/MySQL"
+ datadir = "C:/Database/MySQL/data"
+ max_allowed_packet=100M
+ ```
 
 * Navigate to ` C:/database/mysql/bin ` directory through two command prompt
 * Run following commands step by step
