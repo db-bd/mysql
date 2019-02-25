@@ -1,5 +1,5 @@
 ## Select Count(*) for Multiple Tables
-```sh
+```sql
 SELECT
   (SELECT
      COUNT(0)
@@ -13,7 +13,7 @@ SELECT
 ```
 
 ## Create a View for Count(*)
-```sh
+```sql
 DELIMITER $$
 
 CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`%` SQL SECURITY DEFINER VIEW `total` AS 
