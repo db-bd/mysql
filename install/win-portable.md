@@ -43,7 +43,7 @@
 ```sh
  mysqld --console
 ```
-* Or open cmd and type
+* For Background Mode
 ```sh
-mysqld
+start /b mysqld
 ```
