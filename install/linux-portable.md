@@ -58,7 +58,7 @@ export PATH="$PATH:/opt/mysql/bin"
 
 * Executed Following Command to `mysql>` Command Prompt
 ```sql
- ALTER USER root@localhost IDENTIFIED BY 'nopass'
+ ALTER USER root@localhost IDENTIFIED BY 'nopass';
 ```
 * Now quit and reconnect: ` mysql -u root -p nopass `
 * Everything is working fine
