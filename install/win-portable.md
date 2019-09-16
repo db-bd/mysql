@@ -47,3 +47,22 @@
 ```sh
 start /b mysqld
 ```
+* Create & Start Stop MySQL as Service
+```sh
+mysqld --install-manual MySQL
+```
+* Start & Stop
+```sh
+net start mysql [aka MySQL]
+net stop mysql  [aka MySQL]
+```
+* Removing Service
+```sh
+sc stop mysql
+or -
+net stop mysql
+
+sc delete mysql
+or -
+mysqld --remove
+```
