@@ -1,3 +1,5 @@
+
+## This Does not work in `Ubuntu 20.04`. Please install system packages.
 #### MySQL Portable Install in Linux
 
 * Download [dev.mysql.com](https://dev.mysql.com/downloads/mysql/) => Linux - Generic (glibc 2.12) (x86, 64-bit), Compressed TAR Archive
