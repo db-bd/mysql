@@ -49,7 +49,7 @@ start /b mysqld
 ```
 * Create & Start Stop MySQL as Service
 ```sh
-mysqld --install-manual MySQL
+mysqld.exe --install MySQL --defaults-file="C:\Programs\DB\MySQL\my.ini"
 ```
 * Start & Stop
 ```sh
