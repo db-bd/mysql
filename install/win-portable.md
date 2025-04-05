@@ -34,7 +34,6 @@
 * Connect By this Generated Password
 * Executed Following Command to `mysql>` Command Prompt
 ```sql
- ALTER USER root@localhost IDENTIFIED BY 'newpass';
  ALTER USER root@localhost IDENTIFIED BY 'nopass';
 ```
 * Now quit and reconnect: ` mysql -h localhost -u root -p newpass `
