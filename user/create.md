@@ -1,4 +1,4 @@
-## MySQL 8.x User Create with ` mysql_native_password `
+## MySQL User Create with ` caching_sha2_password `
 ```sql
 CREATE USER 'admin'@'localhost' 
 IDENTIFIED WITH caching_sha2_password 
