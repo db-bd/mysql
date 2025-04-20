@@ -8,3 +8,10 @@ GRANT ALL PRIVILEGES ON *.* TO 'admin'@'localhost';
 
 FLUSH PRIVILEGES;
 ```
+
+## Access outside machine
+```sql
+create user 'admin'@'%' identified by 'nopass';
+grant all privileges on *.* to 'admin'@'%' with grant option;
+flush privileges;
+```
